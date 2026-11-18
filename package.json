@@ -1,0 +1,12 @@
+{
+  "name": "geotrail",
+  "version": "1.2.1",
+  "private": true,
+  "scripts": {
+    "start": "node server.cjs",
+    "test": "node --test test.cjs rooms-test.cjs streets-test.cjs street-cache-test.cjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

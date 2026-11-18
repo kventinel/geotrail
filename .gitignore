@@ -1,0 +1,20 @@
+# Runtime room state contains player tokens and is kept only on the server.
+/data/
+
+# Local dependencies, configuration, editor files and logs.
+node_modules/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+__pycache__/
+*.py[cod]
+.vscode/
+.idea/
+
+# Scratch work and deployment archives.
+/work/
+*.tar
+*.tar.gz
+*.tgz
